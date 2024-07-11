@@ -62,7 +62,7 @@ type Activities []*Activity
 
 func init() {
 	//_ = os.Setenv(TOKEN_NAME_IN_OS, "INSERT_YOUR_TOKEN")
-	_ = os.Setenv(TOKEN_NAME_IN_OS, "7146662463:AAFE-sxkyfYlZmuzmjzFfj98UOGOP3-zddI")
+	_ = os.Setenv(TOKEN_NAME_IN_OS, "Your token")
 
 	if gToken = os.Getenv(TOKEN_NAME_IN_OS); gToken == "" {
 		panic(fmt.Errorf(`failed to load environment variable "%s"`, TOKEN_NAME_IN_OS))
